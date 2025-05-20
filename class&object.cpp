@@ -1,31 +1,21 @@
 
 #include<iostream>
 using namespace std;
-class fan
-{
+class fan{
 public:
 string color;
 double price;
 string type;
-void on()
-{
+void on(){
 cout<< " Fan is ON ";
-}
-void off()
-{
+}void off(){
 cout<< " Fan is OFF ";
-}
-void regulate()
-{
+}void regulate(){
 cout<< " Control Speed ";
-}
-void addDetail()
-{
+}void addDetail(){
 cout<<"Enter Fan Detail";
 cin>>color>>type>>price;
-}
-void showDetail()
-{
+}void showDetail(){
 cout<<"Fan color"<<color<<endl;
 cout<<"Fan type"<<type<<endl;
 cout<<"Fan price"<<price<<endl;
